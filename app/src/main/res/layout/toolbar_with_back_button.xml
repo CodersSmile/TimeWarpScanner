@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blurryBackground"
+    android:paddingTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:gravity="start"
+        android:src="@drawable/backbt"
+        app:tint="@color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/iv_brightness"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:tint="@color/white"
+        android:src="@drawable/ic_brightness"
+       />
+
+    <ImageView
+        android:id="@+id/iv_timer_slider"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:tint="@color/white"
+        android:src="@drawable/ic_speed_slider"
+       />
+
+    <ImageView
+        android:id="@+id/iv_flash_light"
+        android:layout_width="50dp"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:src="@drawable/flash_off"
+        />
+
+
+</LinearLayout>
+

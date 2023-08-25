@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_8sdp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+        android:background="@drawable/grad_unfilled"
+        android:padding="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allow this app to access photos,\n media &amp; files on your device "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewDeny"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/grad_unfilled"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                android:text="Deny"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewAllow"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/btnbg"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                android:text="Allow"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

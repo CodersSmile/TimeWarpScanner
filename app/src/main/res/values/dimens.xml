@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="kilogram_weight_limit">635</integer>
+    <integer name="pounds_weight_limit">1400</integer>
+    <integer name="inches_height_limit">9</integer>
+    <integer name="centimeter_height_limit">251</integer>
+    <fraction name="pound_to_kilogram">0.453592</fraction>
+    <fraction name="centi_to_inch">2.54</fraction>
+</resources>
